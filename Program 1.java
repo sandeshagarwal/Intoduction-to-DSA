@@ -9,8 +9,8 @@ public class Main
 		int n = sc.nextInt();
 		int sum =0;
 		for(int i=1;i<=n;i++)
-		    for(int j=1;j<=i;j++)
-		        sum ++; // Time Complexity O(n*n) - Worst
+		    //for(int j=1;j<=i;j++)
+		        sum = sum + i; // Time Complexity O(n)
 		//int sum = n*((n+1)/2); // Direct Formula to calculate sum (Time Complexity O(1)) -Best
 		System.out.println("The sum is "+ sum);
 	}
